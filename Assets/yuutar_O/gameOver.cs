@@ -6,7 +6,7 @@ public class gameOver : MonoBehaviour
     void OnCollisionEnter(Collision enter)
     {
         Debug.Log("hit");
-        if (enter.gameObject.tag == "ball")
+        if (enter.gameObject.tag == "Ball")
         {
             Debug.Log("gameover");
         }
